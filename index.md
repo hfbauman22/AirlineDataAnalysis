@@ -32,6 +32,14 @@ Describe your data set, including a link to the data.
 Images should be large and easy to see and interperate. 
 Captions underneath should be 20-70 words long.
 
+![](allslopedata.svg)
+![](allrsquareddata.svg)
+![](counts.svg)
+![](multipleairlineslopes.svg)
+![](multipleslopes.svg)
+![](popularity.svg)
+![](trimmedpopularity.svg)
+
 ## Conclusion
 
 Final summary of the data and what you found during this project.
