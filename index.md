@@ -15,16 +15,27 @@ Just like the computer scientists at IBM, I'm interested in understanding the ai
 
 ## Initial Questions
 
-- What initially drew you to this data? 
-- What were you currious about? 
+I was initially drawn to this data by how easy it was to download and the number of parameters that are recorded for each flight. Among other things, the data set records:
 
-    QUESTION 1
-    QUESTION 2
-    QUESTION 3
-  
-- What questions came up as you worked with the data? 
-- Was there anything that surprised you about the data?
-- Was it easy to work with or did you have to clean or "wrangle" the data?
+- The date of the flight
+- The airline completing the flight
+- The origin/destination for the flight (in several different formats for ease of analysis)
+- The departure/arrival times
+- The delay for departure/arrival
+- The estimated total elapsed time
+- The actual total elapsed time
+
+After examining the column headings, I developed three questions that I was curious about:
+
+1. How do delay times relate to the length of the flight? In other words, are longer flights more likely to be delayed?
+2. Is there a correlation between airline company and length of delays?
+3. Are there geographic regions that are more susceptible to delays?
+
+As I worked with the data, I answered the first question and then combined it with the second question to investigate whether certain airlines (specifically more popular airlines) tended to overestimate or underestimate the actual flight time. I did not explore the third question, as the analysis and data wrangling for the first two was significant and did not overlap with the data wrangling that it would have needed.
+
+As seen in the [Discoveries & Insights](#discoveries--insights) section, I was surprised to find that despite having a clear linear relation, the models between estimated and actual flight times have not become more linear over the last 30 years.
+
+This data was moderately easy to work with. It required some relatively major reshaping, which was easy accomplished by R once I understood the syntax that was required to create the data structures that I wanted. Since the data was so large, however, I spent a lot of time waiting for my computer to process and visualize the data to see whether I had correctly entered the instructions that I wanted.
 
 ## Discoveries & Insights
 
