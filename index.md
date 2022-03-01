@@ -3,7 +3,8 @@
 
 ## Introduction
 
-- What is the core discovery you made, the most interesting thing that you can describe with this data? 
+I found that as an industry, airlines have become more conservative in their estimates of flight times over the last 30 years. In other words, airlines in 2020 increased their allocation of buffer time for unexpected delays. Furthermore, more popular airlines (those with a greater proportion of yearly flights) seem to have an unpublicized rule of thumb to overestimate the flight time by a factor of 1.02.
+
 - What will your supporting arguments be for your discovery?
 
 ## Dataset
