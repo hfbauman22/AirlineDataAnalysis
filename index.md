@@ -3,7 +3,9 @@
 
 ## Introduction
 
-I found that as an industry, airlines have become more conservative in their estimates of flight times over the last 30 years. In other words, airlines in 2020 increased their allocation of buffer time for unexpected delays. Furthermore, more popular airlines (those with a greater proportion of yearly flights) seem to have an unpublicized rule of thumb to overestimate the flight time by a factor of 1.02.
+I found that as an industry, airlines have become more conservative in their estimates of flight times over the last 30 years. In other words, airlines in 2020 allocated more time in their estimate for unexpected delays compared to airlines in 1987. Furthermore, more popular airlines (those with a greater proportion of yearly flights) seem to have an unpublicized rule of thumb to overestimate the flight time by a factor of 1.02.
+
+I show the first point by plotting the slopes of the linear regression between estimated and actual flight time for each year. The second point by plotting the slope of the linear regression of estimated and actual flight time for each airline in a year against that airline's proportion of flights in the year.
 
 - What will your supporting arguments be for your discovery?
 
@@ -42,11 +44,22 @@ This data was moderately easy to work with. It required some relatively major re
 Images should be large and easy to see and interperate. 
 Captions underneath should be 20-70 words long.
 
-![](allslopedata.svg)
-![](allrsquareddata.svg)
-![](counts.svg)
-![](multipleairlineslopes.svg)
+In order to to explore the first question, the data are divided into years and the actual flight time is plotted against the estimated flight time. Linear regression models are then created for each year and the slope is extracted from the model. The graph below shows the a subset of this process for the years 1990, 2000, 2010, and 2020 with the slope of the linear regression shown on each chart.
+
 ![](multipleslopes.svg)
+
+The slopes for each year are plotted in the graph below. Interestingly, the slope has generally decreased over time, but it was not a smooth progression. In fact, the data seems to repeat a pattern of moderate increase followed by a sharp decrease.
+
+![](allslopedata.svg)
+
+When viewing the data shown in the first plot, it is reasonable to wonder if the relationship between the airlines' predictions and the actual flight time has become more linear over time as the airlines have developed better models. The plot below shows the R^2 value for the linear regression on each year of data. The flight data is clearly linear (as the R^2 values are between 0.965 and 0.975), but the goodness of fit stays roughly constant over the last 30 years.
+
+![](allrsquareddata.svg)
+
+In order to explore whether certain airlines 
+
+![](multipleairlineslopes.svg)
+![](counts.svg)
 ![](popularity.svg)
 ![](trimmedpopularity.svg)
 
