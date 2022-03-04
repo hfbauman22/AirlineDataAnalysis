@@ -56,11 +56,20 @@ When viewing the data shown in the first plot, it is reasonable to wonder if the
 
 ![](allrsquareddata.svg)
 
-In order to explore whether certain airlines 
+In order to explore whether certain airlines were more likely to overestimate the flight time, the data was further split into categories for each airline in each year and a similar linear regression was calculated for estimated vs. actual flight time for each airline in each year. 2005 is shown below as an example:
 
 ![](multipleairlineslopes.svg)
+
+For each year, the proportion of flights that each airline flew was also caluclated. For example, the following plot shows the proportion of flights that each airline flew in 2005:
+
 ![](counts.svg)
+
+For each airline in each year, the popularity was then plotted against the slope of the regression line as shown. Airlines that fly the most flights are emphasized since their popularity is indicative of a good balance between cost (overestimating flight time means that they have to schedule more employees even if flights arrive early) and consumer relations (travelers do not respond well to delays).
+
 ![](popularity.svg)
+
+While the data is largely symmetric, there are some outliers. The following graph shows all data points with slope greater than 0.94. The trimmed data converges on the mean of 0.98201 as shown:
+
 ![](trimmedpopularity.svg)
 
 ## Conclusion
