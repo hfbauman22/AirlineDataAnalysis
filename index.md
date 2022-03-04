@@ -74,8 +74,10 @@ While the data is largely symmetric, there are some outliers. The following grap
 
 ## Conclusion
 
-Final summary of the data and what you found during this project.
+The data show several interesting observations. First, the relationship between estimated and actual flight time is linear. Furthermore, while the data has roughly maintained a constant linearity (how close it is to being perfectly linear), the slope between those variables has generally decreased between 1980 and 2020. Additionally, the more popular airlines in the industry generally converge around a slope of 0.98201 between the estimated and actual flight time. Taking the inverse of that slope indicates that airlines generally overestimate the flight time by a factor of approximately 1.02.
 
 ## Sources
 
-Did any sources help you understand your data better? Make sure to cite them.
+The data (including the full 200 million flight data set) can be downloaded from IBM [here](https://developer.ibm.com/exchanges/data/all/airline/).
+
+The data reports the airline for each flight using the International Air Transport Association (IATA). In order to find the full name of the airline, you can use the lookup tool on the [IATA Website](https://www.iata.org/en/publications/directories/code-search/).
